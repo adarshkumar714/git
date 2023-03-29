@@ -21,6 +21,10 @@ untracked                unmodified                modified                stage
 * ``` git checkout -b [branch name] ``` or ``` git branch [branch name] ``` : to make a new branch
 * ``` git checkout [branch name] ``` : to switch to another branch
 * ``` git checkout -d [branch name] ``` : deleting a branch (note : we should be in master branch to delete any branch)
+* merging two branches :
+   * first switch to the branch into which you want to merge a branch using ``` git checkout [branch 1] ```
+   * merge the branch using ``` git merge [branch 2] ```
+   * branch 2 will be merged in branch 1
 * ``` git add [file name] ``` : sending the file to staged area
 * ``` git reset --[hard/soft] ```
 * ``` git restore [file name] ```
