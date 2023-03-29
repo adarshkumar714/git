@@ -1,5 +1,13 @@
 # Git basic guide and commands
 
+## recording changed to repository
+<pre>
+untracked                unmodified                modified                staged <br>
+   |-------------------------|------------------------|---------------------->| <br>
+                             |----------------------->|                       | <br>
+   |<------------------------|                        |---------------------->| <br>
+                             |<-----------------------|-----------------------| <br>
+</pre>
 
 ## basic git commands
 * ``` git init ``` : initializing a git repository
