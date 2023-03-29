@@ -16,3 +16,14 @@
 * ``` git add [file name] ``` : sending the file to staged area
 * ``` git reset --[hard/soft] ```
 * ``` git restore [file name] ```
+
+## guide for open source contributiosn
+* step 1 : fork the project repository into your github account in which you want to contribute
+* step 2 : clone the repository into your local machine
+```sh
+git clone [projcet url]
+```
+* step 3 : make and commit changes to the local repository using git commands
+* step 4 : push the repository to your github account after making changes
+* step 5 : make a pull request to the author of the repository by navigating to the pull request section of the project repository
+* step 6 : If author accepts the pull request then he/she will pull changes from your remote forked repository
