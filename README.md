@@ -12,6 +12,7 @@ untracked                unmodified                modified                stage
 ## basic git commands
 * ``` git init ``` : initializing a git repository
 * ``` git clone [projcet url] ``` : cloning repository from remote
+* ``` git push -u origin [branch name] ``` : to push [branch name] to remote repository
 * ``` git commit -m [message] ``` : to commit any changes to the code with message
 * ``` git status ``` or ``` git status -s ```: to know the changes made in project
 * ``` git diff [file name] ``` : to know that what changes have been made in file of project
