@@ -10,6 +10,11 @@ untracked                unmodified                modified                stage
 </pre>
 
 ## basic git commands
+* Git configuration :
+    * ``` git config --global user.name [user name] ``` : to set the user name on git
+    * ``` git config --global user.email [user email] ``` : to set user email on git
+    * ``` git config --global user.name ``` : to print the user name on git
+    * ``` git config --global user.email ``` : to print user email on git
 * ``` git init ``` : initializing a git repository
 * ``` git clone [projcet url] ``` : cloning repository from remote
 * ``` git push -u origin [branch name] ``` : to push [branch name] to remote repository
