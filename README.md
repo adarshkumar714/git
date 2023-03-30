@@ -46,7 +46,13 @@ untracked                unmodified                modified                stage
    * #### to push changes to a perticular branch :
       * switch to that branch in git bash
       * type ``` git push ```
-
+### general guide :
+   * make a new repository in on github
+   * generate a ssh-key on git bash
+   * make a folder on local pc
+   * initialize git in that folder
+   * add origin
+   * push code
    
 ## guide for open source contributiosn
 * step 1 : fork the project repository into your github account in which you want to contribute
