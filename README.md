@@ -2,24 +2,22 @@
 
 ## recording changed to repository
 <pre>
-untracked                unmodified                modified                staged <br>
-   |-------------------------|------------------------|---------------------->| <br>
-                             |----------------------->|                       | <br>
-   |<------------------------|                        |---------------------->| <br>
-                             |<-----------------------|-----------------------| <br>
+untracked                unmodified                modified                staged
+   |-------------------------|------------------------|---------------------->|
+                             |----------------------->|                       |
+   |<------------------------|                        |---------------------->|
+                             |<-----------------------|-----------------------|
 </pre>
 
 ## basic git commands
-* Git configuration :
-    * ``` git config --global user.name [user name] ``` : to set the user name on git
-    * ``` git config --global user.email [user email] ``` : to set user email on git
-    * ``` git config --global user.name ``` : to print the user name on git
-    * ``` git config --global user.email ``` : to print user email on git
+* ### Git configuration :
+   * ``` git config --global user.name [user name] ``` : to set the user name on git
+   * ``` git config --global user.email [user email] ``` : to set user email on git
+   * ``` git config --global user.name ``` : to print the user name on git
+   * ``` git config --global user.email ``` : to print user email on git
+
 * ``` git init ``` : initializing a git repository
 * ``` git branch -M main ``` : to change the name of master branch to main
-* ``` git clone [projcet url] ``` : cloning repository from remote
-* ``` git remote -v ``` : to print the remote origin on the clone
-* ``` git push -u origin [branch name] ``` : to push [branch name] to remote repository
 * ``` git commit -m [message] ``` : to commit any changes to the code with message
 * ``` git status ``` or ``` git status -s ``` :
     * to know the changes made in project
@@ -39,6 +37,14 @@ untracked                unmodified                modified                stage
 * ``` git reset --[hard/soft] ```
 * ``` git restore [file name] ```
 
+* ### connecting with remote from local :
+   * ``` git remote add origin [project url] ``` : adding origin in local pc to [project url]
+      * "project url" looks like "git@github.com:[github userame]/[repository name].git"
+   * ``` git push -u origin [branch name] ``` : to push [branch name] to remote repository
+   * ``` git clone [projcet url] ``` : cloning repository from remote
+   * ``` git remote -v ``` : to print the remote origin on the clone
+
+   
 ## guide for open source contributiosn
 * step 1 : fork the project repository into your github account in which you want to contribute
 * step 2 : clone the repository into your local machine
