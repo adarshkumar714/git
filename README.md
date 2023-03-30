@@ -13,8 +13,8 @@ untracked                unmodified                modified                stage
 * ### Git configuration :
    * ``` git config --global user.name [user name] ``` : to set the user name on git
    * ``` git config --global user.email [user email] ``` : to set user email on git
-   * ``` git config --global user.name ``` : to print the user name on git
-   * ``` git config --global user.email ``` : to print user email on git
+   * ``` git config --global user.name ``` or ``` git config user.name ``` : to print the user name on git
+   * ``` git config --global user.email ``` or ``` git config user.email ``` : to print user email on git
 
 * ``` git init ``` : initializing a git repository
 * ``` git branch -M main ``` : to change the name of master branch to main
