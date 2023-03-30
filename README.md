@@ -19,7 +19,9 @@ untracked                unmodified                modified                stage
 * ``` git clone [projcet url] ``` : cloning repository from remote
 * ``` git push -u origin [branch name] ``` : to push [branch name] to remote repository
 * ``` git commit -m [message] ``` : to commit any changes to the code with message
-* ``` git status ``` or ``` git status -s ```: to know the changes made in project
+* ``` git status ``` or ``` git status -s ``` :
+    * to know the changes made in project
+    * ``` -s ``` to print the status in short
 * ``` git diff [file name] ``` : to know that what changes have been made in file of project
 * ``` git log ``` : lists that how many times 'git commit' is used and the name of person who commited the changes
 * ``` git show ```
