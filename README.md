@@ -54,7 +54,7 @@ untracked                unmodified                modified                stage
    * add origin
    * push code
    
-## guide for open source contributiosn
+## open source contributiosn
 * step 1 : fork the project repository into your github account in which you want to contribute
 * step 2 : clone the repository into your local machine
 ```sh
