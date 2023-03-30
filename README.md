@@ -37,12 +37,15 @@ untracked                unmodified                modified                stage
 * ``` git reset --[hard/soft] ```
 * ``` git restore [file name] ```
 
-* ### connecting with remote from local :
+* ### commands to communicate with remote repository from local pc :
    * ``` git remote add origin [project url] ``` : adding origin in local pc to [project url]
       * "project url" looks like "git@github.com:[github userame]/[repository name].git"
    * ``` git push -u origin [branch name] ``` : to push [branch name] to remote repository
    * ``` git clone [projcet url] ``` : cloning repository from remote
    * ``` git remote -v ``` : to print the remote origin on the clone
+   * #### to push changes to a perticular branch :
+      * switch to that branch in git bash
+      * type ``` git push ```
 
    
 ## guide for open source contributiosn
