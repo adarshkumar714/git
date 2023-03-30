@@ -16,6 +16,7 @@ untracked                unmodified                modified                stage
     * ``` git config --global user.name ``` : to print the user name on git
     * ``` git config --global user.email ``` : to print user email on git
 * ``` git init ``` : initializing a git repository
+* ``` git branch -M main ``` : to change the name of master branch to main
 * ``` git clone [projcet url] ``` : cloning repository from remote
 * ``` git remote -v ``` : to print the remote origin on the clone
 * ``` git push -u origin [branch name] ``` : to push [branch name] to remote repository
