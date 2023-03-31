@@ -17,6 +17,7 @@ untracked                unmodified                modified                stage
    * ``` git config --global user.email ``` or ``` git config user.email ``` : to print user email on git
 
 * ``` git init ``` : initializing a git repository
+* ``` rm -rf .git ``` : to uninitialize git
 * ``` git branch -M main ``` : to change the name of master branch to main
 * ``` git commit -m [message] ``` : to commit any changes to the code with message
 * ``` git status ``` or ``` git status -s ``` :
