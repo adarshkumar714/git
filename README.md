@@ -29,7 +29,7 @@ untracked                unmodified                modified                stage
 * ``` git branch ``` : lists all the branches in project
 * ``` git checkout -b [branch name] ``` or ``` git branch [branch name] ``` : to make a new branch
 * ``` git checkout [branch name] ``` : to switch to another branch
-* ``` git checkout -d [branch name] ``` : deleting a branch (note : we should be in master branch to delete any branch)
+* ``` git branch --delete [branch name] ``` : deleting a branch (note : we should be in master branch to delete any branch)
 * merging two branches :
    * first switch to the branch into which you want to merge a branch using ``` git checkout [branch 1] ```
    * merge the branch using ``` git merge [branch 2] ```
