@@ -1,6 +1,6 @@
 # Git basic guide and commands
 
-## recording changed to repository
+## recording changes to repository
 <pre>
 untracked                unmodified                modified                staged
    |-------------------------|------------------------|---------------------->|
