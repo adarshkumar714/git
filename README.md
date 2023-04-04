@@ -25,7 +25,7 @@ untracked                unmodified                modified                stage
     * ``` -s ``` to print the status in short
 * ``` git diff [file name] ``` : to know that what changes have been made in file of project
 * ``` git log ``` : lists that how many times 'git commit' is used and the name of person who commited the changes
-* ``` git show ```
+* ``` git show ``` : this shows changes made in your files in the last commit
 * ``` git branch ``` : lists all the branches in project
 * ``` git checkout -b [branch name] ``` or ``` git branch [branch name] ``` : to make a new branch
 * ``` git checkout [branch name] ``` : to switch to another branch
