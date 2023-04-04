@@ -35,13 +35,15 @@ untracked                unmodified                modified                stage
    * merge the branch using ``` git merge [branch 2] ```
    * branch 2 will be merged in branch 1
 * ``` git add [file name] ``` : sending the file to staged area
-* ``` git reset --[hard/soft] ```
+* ``` git reset --[hard/soft] HEAD~[commit no.] ``` : to delete a commit
+   * in [commit no.], 1 will be refering to last commit and 2 will be refering to second last commit and so on...
 * ``` git restore [file name] ```
 
 * ### commands to communicate with remote repository from local pc :
    * ``` git remote add origin [project url] ``` : adding origin in local pc to [project url]
       * "project url" looks like "git@github.com:[github userame]/[repository name].git"
    * ``` git push -u origin [branch name] ``` : to push [branch name] to remote repository
+   * ``` git push origin [branch name] --force ``` : to overwrite all the content in the remote repository with the local repository
    * ``` git clone [projcet url] ``` : cloning repository from remote
    * ``` git remote -v ``` : to print the remote origin on the clone
    * ``` git remote rm origin ``` : to remove origin from git repository
