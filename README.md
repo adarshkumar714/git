@@ -44,6 +44,7 @@ untracked                unmodified                modified                stage
    * ``` git push -u origin [branch name] ``` : to push [branch name] to remote repository
    * ``` git clone [projcet url] ``` : cloning repository from remote
    * ``` git remote -v ``` : to print the remote origin on the clone
+   * ``` git remote rm origin ``` : to remove origin from git repository
    * #### to push changes to a perticular branch :
       * switch to that branch in git bash
       * type ``` git push ```
