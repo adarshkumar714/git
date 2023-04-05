@@ -37,7 +37,7 @@ untracked                unmodified                modified                stage
 * ``` git add [file name] ``` : sending the file to staged area
 * ``` git reset --[hard/soft] HEAD~[commit no.] ``` : to delete a commit
    * in [commit no.], 1 will be refering to last commit and 2 will be refering to second last commit and so on...
-* ``` git restore [file name] ```
+* ``` git restore [file name] ``` : this is used to simple unstage the file
 
 * ### commands to communicate with remote repository from local pc :
    * ``` git remote add origin [project url] ``` : adding origin in local pc to [project url]
