@@ -44,6 +44,7 @@ untracked                unmodified                modified                stage
       * "project url" looks like "git@github.com:[github userame]/[repository name].git"
    * ``` git push -u origin [branch name] ``` : to push [branch name] to remote repository
    * ``` git push origin [branch name] --force ``` : to overwrite all the content in the remote repository with the local repository
+   * ``` git pull ``` : to pull all the code from remote repository
    * ``` git clone [projcet url] ``` : cloning repository from remote
    * ``` git remote -v ``` : to print the remote origin on the clone
    * ``` git remote rm origin ``` : to remove origin from git repository
