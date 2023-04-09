@@ -47,12 +47,12 @@ untracked                unmodified                modified                stage
    * ``` git pull ``` : to pull all the code from remote repository
    * ``` git clone [projcet url] ``` : cloning repository from remote
    * ``` git remote -v ``` : to print the remote origin on the clone
-   * ``` git remote rm origin ``` : to remove origin from git repository
+   * ``` git remote rm origin ``` : to remove origin from local git repository
    * #### to push changes to a perticular branch :
       * switch to that branch in git bash
       * type ``` git push ```
 ### general guide :
-   * make a new repository in on github
+   * make a new repository on github
    * generate a ssh-key on git bash
    * make a folder on local pc
    * initialize git in that folder
