@@ -1,7 +1,10 @@
 # Mongodb
 
-* Starting Mongodb server : ``` ./mongod --dbpath [folder path where db will be saved] ```
-  * use this commands in the directory where mongod is present
+* Starting Mongodb server
+```sh
+./mongod --dbpath [folder path where db will be saved]
+```
+use this commands in the directory where mongod is present.
 
 ## Mongosh commands
 * show dbs
