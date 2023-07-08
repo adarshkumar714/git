@@ -101,6 +101,7 @@ app.listen('3000', 'localhost', ()=>{
 * Note: The static middleware should always be present after all backend routes, if you will not do so then your frontend routes managed by ```react-router-dom``` will collide with your backend routes.
 * Note: By default, when you refresh a page or directly access a specific URL in a React Router-based frontend, the server will try to handle the request first. due to which the routes which should be handled by frontend that will be handled by backend, obviously backend will not have that route and it will show 404 error.
 * To fix the issue specified in the 2nd note you can replace ```'/'``` with ```'*'```, then if you will try to access the frontend routes directly or your will refresh the page then frontend will handle that request instead of backend.
+* To fix this issue and ensure that React Router handles all the routing, you need to configure your backend server to serve the frontend's index.html file for any route that is not explicitly defined as a backend route. This process is known as "fallback" or "catch-all" routing.
 ```js
 const express = require('express');
 
